@@ -10,9 +10,9 @@ Resource  ../resources/gogoroWebApp.robot
 ${BROWSER} =  ff
 ${START_URL} =  https://www.gogoro.com/tw/
 ${LOGIN_EMAIL} =  fqoff740818@gmail.com
-${LOGIN_PASSWORD} =  yang123@@@
+${LOGIN_PASSWORD} =  yyyy999***
 ${INVALID_LOGIN_EMAIL} =  fqoff740818@gmail.co
-${INVALID_LOGIN_PASSWORD} =  yang123!!!
+${INVALID_LOGIN_PASSWORD} =  yyyy123+++
 
 *** Test Cases ***
 Landing Main Page
