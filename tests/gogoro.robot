@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  gogoro web sanity test
+Documentation  gogoro web login test
 Library  SeleniumLibrary
 Resource  ../resources/common.robot
 Resource  ../resources/gogoroWebApp.robot
