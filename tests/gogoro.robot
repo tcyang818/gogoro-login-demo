@@ -17,7 +17,7 @@ ${INVALID_LOGIN_PASSWORD} =  yyyy123+++
 *** Test Cases ***
 Landing Main Page
     [Documentation]     正確進入Main Page
-    [Tags]  smoke Landing
+    [Tags]  smoke LandingMainPage
     common.Begin Web Test
     gogoroWebApp.Verify main page landing successsful
 

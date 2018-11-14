@@ -44,7 +44,7 @@ Verfiy popup Invalid Password message
 Verfiy popup Invalid len Password message
     Wait Until Element Is Visible   xpath=//span[@class='help-block']
     Page Should Contain             請輸入最少8以及最多20個數字的密碼
-    sleep  1.5s
+    sleep                           1.5s
 
 Verfiy LOGIN successful to LOGIN page
     Wait Until Element Is Visible   xpath=//div[@class='layout-cell cell-name hidden-xs hidden-sm topHeader-menuLink']
