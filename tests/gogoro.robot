@@ -53,4 +53,4 @@ Login with Valid Credentials
     common.End Web Test
 
 Feature 1
-    Log  feature1 test
+    Log  feature1 test test
