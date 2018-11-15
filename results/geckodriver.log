@@ -10310,3 +10310,481 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line
 1542293303139	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
 1542293303139	Marionette	INFO	Stopped listening on port 50822
 1542293303139	Marionette	DEBUG	Remote service is inactive
+1542293360951	geckodriver	INFO	geckodriver 0.21.0
+1542293360958	geckodriver	INFO	Listening on 127.0.0.1:50925
+1542293361975	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/f1/xv2z7br90bs517qrpmfgfgw40000gn/T/rust_mozprofile.uGqspaf1GD3b"
+1542293362228	addons.manager	DEBUG	Application has been upgraded
+1542293362247	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1542293362252	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1542293362273	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1542293362276	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1542293362277	addons.manager	DEBUG	Starting provider: XPIProvider
+1542293362277	addons.xpi	DEBUG	startup
+1542293362282	addons.xpi	INFO	SystemAddonLocation directory is missing
+1542293362302	addons.xpi	INFO	Removing all system add-on upgrades.
+1542293362303	addons.xpi	DEBUG	checkForChanges
+1542293362303	addons.xpi	DEBUG	Loaded add-on state: ${}
+1542293362304	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1542293362305	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1542293362306	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1542293362307	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1542293362308	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1542293362308	addons.xpi	DEBUG	New add-on webcompat-reporter@mozilla.org in app-system-defaults
+1542293362309	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1542293362310	addons.xpi	DEBUG	scanForChanges changed: true, state: {}
+1542293362322	addons.xpi-utils	DEBUG	Error: Synchronously loading the add-ons database(resource://gre/modules/addons/XPIDatabase.jsm:1338:15) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1338:15
+checkForChanges@XPIProvider.jsm:2554:9
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1542293362323	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/f1/xv2z7br90bs517qrpmfgfgw40000gn/T/rust_mozprofile.uGqspaf1GD3b/extensions.json
+1542293362523	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadFileInternal: blocklist is disabled
+1542293362549	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1542293362552	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1542293362670	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1542293362674	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1542293362682	addons.xpi-utils	DEBUG	New add-on webcompat-reporter@mozilla.org installed in app-system-defaults
+1542293362684	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1542293362693	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1542293362697	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1542293362698	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1542293362698	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1542293362698	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{c2dc88d3-e373-f241-b661-ce28c7706b75}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025095,"updateDate":1541744025095,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362698	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1542293362699	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1542293362701	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1542293362702	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1542293362702	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{aeb5547f-9195-b24c-9bab-82271c67e1a2}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025094,"updateDate":1541744025094,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362702	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1542293362702	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1542293362702	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1542293362702	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1542293362703	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{b7d16445-fca6-c942-8a41-e42ba375a165}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025084,"updateDate":1541744025084,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362703	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1542293362703	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1542293362705	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1542293362705	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1542293362705	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{d05d5354-959b-d041-b758-0ea447a07d43}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025079,"updateDate":1541744025079,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362705	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1542293362705	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1542293362707	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 33.0.0
+1542293362707	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1542293362707	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{3575f393-495e-864b-9d09-539f5ce1c5f3}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025073,"updateDate":1541744025073,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362707	addons.manager	DEBUG	Registering startup change 'installed' for webcompat-reporter@mozilla.org
+1542293362707	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi
+1542293362708	addons.xpi	DEBUG	Calling bootstrap method install on webcompat-reporter@mozilla.org version 1.0.0
+1542293362708	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat-reporter@mozilla.org visible
+1542293362708	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{54ef0a4f-4c74-ca42-b25e-eb673f172ae5}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025063,"updateDate":1541744025063,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362709	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1542293362709	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1542293362710	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 2.0.1
+1542293362710	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1542293362710	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{6023f15b-574a-d841-9a33-5df6b27339bb}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025062,"updateDate":1541744025062,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362710	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{c2dc88d3-e373-f241-b661-ce28c7706b75}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025095,"updateDate":1541744025095,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{aeb5547f-9195-b24c-9bab-82271c67e1a2}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025094,"updateDate":1541744025094,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{b7d16445-fca6-c942-8a41-e42ba375a165}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025084,"updateDate":1541744025084,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{d05d5354-959b-d041-b758-0ea447a07d43}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025079,"updateDate":1541744025079,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{3575f393-495e-864b-9d09-539f5ce1c5f3}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025073,"updateDate":1541744025073,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{54ef0a4f-4c74-ca42-b25e-eb673f172ae5}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025063,"updateDate":1541744025063,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362711	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{6023f15b-574a-d841-9a33-5df6b27339bb}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025062,"updateDate":1541744025062,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293362712	addons.xpi-utils	DEBUG	Updating add-on states
+1542293362713	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1542293362713	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1542293362713	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1542293362714	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1542293362718	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1542293362719	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1542293362720	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1542293362720	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1542293362720	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1542293362720	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi
+1542293362721	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1542293362721	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1542293362722	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0.1
+1542293362723	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1542293362723	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1542293362723	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1542293362723	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1542293362724	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1542293362724	addons.manager	DEBUG	Starting provider: GMPProvider
+1542293362725	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1542293362726	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1542293362726	addons.manager	DEBUG	Starting provider: PluginProvider
+1542293362726	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1542293362726	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1542293362730	addons.manager	DEBUG	Completed startup sequence
+1542293362739	Marionette	DEBUG	Received observer notification profile-after-change
+1542293362864	Marionette	DEBUG	Received observer notification command-line-startup
+1542293362864	Marionette	DEBUG	Received observer notification nsPref:changed
+1542293362864	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542293363097	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542293363132	addons.repository	DEBUG	No addons.json found.
+1542293363881	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+1542293363925	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 27
+1542293363945	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542293363945	Marionette	DEBUG	Waiting for delayed startup...
+1542293363962	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1542293363962	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1542293363962	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1542293363962	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1542293363963	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1542293363963	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1542293363963	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1542293363963	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+1542293364085	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542293364085	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542293364085	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542293364085	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542293364085	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542293364086	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542293364086	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542293364086	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542293364086	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542293364086	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542293364087	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542293364087	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542293364087	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542293364087	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542293364087	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542293364087	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542293364087	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542293364087	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542293364123	Marionette	INFO	Listening on port 50934
+1542293364123	Marionette	DEBUG	Remote service is active
+1542293364144	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50957
+1542293364146	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542293364146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542293364186	Marionette	DEBUG	[4294967297] Frame script loaded
+1542293364187	Marionette	DEBUG	[4294967297] Frame script registered
+1542293364191	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"17ad7ca4-6c79-f747-aa95-79cac7255a56","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1542293364195	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"script":5000}]
+1542293364196	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542293364197	Marionette	TRACE	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":0}]
+1542293364198	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1542293364201	Marionette	TRACE	0 -> [0,4,"WebDriver:Navigate",{"url":"about:blank"}]
+1542293364211	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542293364213	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542293364217	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for about:blank
+1542293364227	Marionette	DEBUG	[4294967297] Received DOM event pageshow for about:blank
+1542293364229	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1542293364236	Marionette	TRACE	0 -> [0,5,"WebDriver:MaximizeWindow",{}]
+1542293364519	Marionette	TRACE	0 <- [1,5,null,{"x":0,"y":23,"width":1440,"height":823,"state":"maximized"}]
+1542293364531	Marionette	TRACE	0 -> [0,6,"WebDriver:Navigate",{"url":"https://www.gogoro.com/tw/"}]
+1542293364587	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542293364749	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542293365581	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.gogoro.com/tw/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 87: unreachable code after return statement
+1542293370337	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.gogoro.com/tw/
+1542293370339	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1542293370344	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]"}]
+1542293370354	Marionette	TRACE	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"7e9bd063-360e-4c41-8cd1-332e2682438b"}]]
+1542293370358	Marionette	TRACE	0 -> [0,8,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]"}]
+1542293370360	Marionette	TRACE	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"7e9bd063-360e-4c41-8cd1-332e2682438b"}]]
+1542293370364	Marionette	TRACE	0 -> [0,9,"WebDriver:GetElementText",{"id":"7e9bd063-360e-4c41-8cd1-332e2682438b"}]
+1542293370373	Marionette	TRACE	0 <- [1,9,null,{"value":"Gogoro"}]
+1542293370375	Marionette	TRACE	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--logi ... sktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]"}]
+1542293370379	Marionette	TRACE	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"a56e839f-bcf9-7e40-9af5-f7312edfbe51"}]]
+1542293370382	Marionette	TRACE	0 -> [0,11,"WebDriver:IsElementDisplayed",{"id":"a56e839f-bcf9-7e40-9af5-f7312edfbe51"}]
+1542293370391	Marionette	TRACE	0 <- [1,11,null,{"value":true}]
+1542293370393	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., '登入')]"}]
+1542293370404	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"ef4b42fd-1a7c-b642-ba6b-f4b4d85439e4"},{"element-6066-11e4-a52e-4f735466c ... ecf":"a8b547aa-f12d-b244-9b1f-2d2f49bad600"},{"element-6066-11e4-a52e-4f735466cecf":"a56e839f-bcf9-7e40-9af5-f7312edfbe51"}]]
+1542293370412	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--logi ... sktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]"}]
+1542293370416	Marionette	TRACE	0 <- [1,13,null,[{"element-6066-11e4-a52e-4f735466cecf":"a56e839f-bcf9-7e40-9af5-f7312edfbe51"}]]
+1542293370419	Marionette	TRACE	0 -> [0,14,"WebDriver:ElementClick",{"id":"a56e839f-bcf9-7e40-9af5-f7312edfbe51"}]
+1542293370463	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.gogoro.com/tw/
+1542293370843	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.gogoro.com/tw/
+1542293370847	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.gogoro.com/tw/
+1542293371388	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542293371878	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://my.gogoro.com/tw/account/login
+1542293372340	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0.1
+1542293372341	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1542293372341	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1542293372345	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1542293372345	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1542293372350	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1542293372350	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1542293372421	Marionette	DEBUG	Received DOM event unload for [object XULDocument]
+1542293372427	Marionette	DEBUG	Received observer notification message-manager-disconnect
+1542293372429	Marionette	DEBUG	[4294967297] Received DOM event unload for https://my.gogoro.com/tw/account/login
+1542293372430	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1542293372433	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+JavaScript error: https://js.hsforms.net/forms/v2.js, line 8: TypeError: top is null
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 34131, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1542293373252	Marionette	DEBUG	Closed connection 0
+1542293373272	addons.manager	DEBUG	shutdown
+1542293373274	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1542293373274	addons.xpi	DEBUG	shutdown
+1542293373274	addons.xpi-utils	DEBUG	shutdown
+1542293373274	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1542293373274	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1542293373274	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1542293373278	addons.manager	DEBUG	Async provider shutdown done
+1542293373338	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1542293373339	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1542293373339	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1542293373339	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1542293373339	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1542293373339	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1542293373339	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1542293373340	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1542293373340	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1542293373340	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1542293373340	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1542293373340	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1542293373340	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1542293373340	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1542293373340	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1542293373340	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1542293373341	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1542293373341	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1542293373341	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1542293373341	Marionette	INFO	Stopped listening on port 50934
+1542293373341	Marionette	DEBUG	Remote service is inactive
+1542293424471	geckodriver	INFO	geckodriver 0.21.0
+1542293424477	geckodriver	INFO	Listening on 127.0.0.1:51039
+1542293425496	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/f1/xv2z7br90bs517qrpmfgfgw40000gn/T/rust_mozprofile.VYuJACLB9rdZ"
+1542293425723	addons.manager	DEBUG	Application has been upgraded
+1542293425733	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1542293425735	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1542293425762	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1542293425764	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1542293425764	addons.manager	DEBUG	Starting provider: XPIProvider
+1542293425765	addons.xpi	DEBUG	startup
+1542293425767	addons.xpi	INFO	SystemAddonLocation directory is missing
+1542293425777	addons.xpi	INFO	Removing all system add-on upgrades.
+1542293425778	addons.xpi	DEBUG	checkForChanges
+1542293425778	addons.xpi	DEBUG	Loaded add-on state: ${}
+1542293425779	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1542293425780	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1542293425780	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1542293425781	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1542293425781	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1542293425781	addons.xpi	DEBUG	New add-on webcompat-reporter@mozilla.org in app-system-defaults
+1542293425782	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1542293425782	addons.xpi	DEBUG	scanForChanges changed: true, state: {}
+1542293425789	addons.xpi-utils	DEBUG	Error: Synchronously loading the add-ons database(resource://gre/modules/addons/XPIDatabase.jsm:1338:15) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1338:15
+checkForChanges@XPIProvider.jsm:2554:9
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1542293425790	addons.xpi-utils	DEBUG	Starting async load of XPI database /var/folders/f1/xv2z7br90bs517qrpmfgfgw40000gn/T/rust_mozprofile.VYuJACLB9rdZ/extensions.json
+1542293425959	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadFileInternal: blocklist is disabled
+1542293425985	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1542293426010	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1542293426129	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1542293426136	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1542293426143	addons.xpi-utils	DEBUG	New add-on webcompat-reporter@mozilla.org installed in app-system-defaults
+1542293426145	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1542293426155	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1542293426160	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1542293426161	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1542293426161	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1542293426161	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{48dea39c-5cd3-b749-a29e-f42543ba0600}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025095,"updateDate":1541744025095,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426162	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1542293426162	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1542293426165	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1542293426165	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1542293426165	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{35e8059d-9525-f748-947c-1b72e6c3c1a1}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025094,"updateDate":1541744025094,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426165	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1542293426165	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1542293426166	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1542293426166	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1542293426166	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{2d5e355f-0912-a44b-9f9f-5cd89c7fef23}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025084,"updateDate":1541744025084,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426166	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1542293426166	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1542293426168	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1542293426168	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1542293426168	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{19be58db-d10b-1746-89db-25dc23f723ff}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025079,"updateDate":1541744025079,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426169	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1542293426169	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1542293426171	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 33.0.0
+1542293426171	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1542293426171	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{e250771f-bd25-8c4c-b119-f1e9a83ce58a}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025073,"updateDate":1541744025073,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426171	addons.manager	DEBUG	Registering startup change 'installed' for webcompat-reporter@mozilla.org
+1542293426172	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi
+1542293426173	addons.xpi	DEBUG	Calling bootstrap method install on webcompat-reporter@mozilla.org version 1.0.0
+1542293426173	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat-reporter@mozilla.org visible
+1542293426173	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{db483563-d64a-a84d-990c-315c2397d181}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025063,"updateDate":1541744025063,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426173	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1542293426173	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1542293426174	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 2.0.1
+1542293426174	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1542293426174	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{5473d157-78e0-c547-b4b4-2abec919610c}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1541744025062,"updateDate":1541744025062,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426175	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{48dea39c-5cd3-b749-a29e-f42543ba0600}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025095,"updateDate":1541744025095,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426175	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{35e8059d-9525-f748-947c-1b72e6c3c1a1}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025094,"updateDate":1541744025094,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426175	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{2d5e355f-0912-a44b-9f9f-5cd89c7fef23}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025084,"updateDate":1541744025084,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426175	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{19be58db-d10b-1746-89db-25dc23f723ff}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025079,"updateDate":1541744025079,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426175	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{e250771f-bd25-8c4c-b119-f1e9a83ce58a}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025073,"updateDate":1541744025073,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426176	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{db483563-d64a-a84d-990c-315c2397d181}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025063,"updateDate":1541744025063,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426176	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{5473d157-78e0-c547-b4b4-2abec919610c}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1541744025062,"updateDate":1541744025062,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0.1","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0.1","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1542293426176	addons.xpi-utils	DEBUG	Updating add-on states
+1542293426178	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1542293426178	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1542293426178	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1542293426179	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1542293426186	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1542293426186	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1542293426187	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1542293426187	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1542293426187	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1542293426188	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat-reporter@mozilla.org.xpi
+1542293426188	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1542293426188	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1542293426189	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0.1
+1542293426190	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1542293426191	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1542293426191	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1542293426191	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1542293426191	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1542293426192	addons.manager	DEBUG	Starting provider: GMPProvider
+1542293426194	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1542293426194	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1542293426194	addons.manager	DEBUG	Starting provider: PluginProvider
+1542293426194	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1542293426194	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1542293426200	addons.manager	DEBUG	Completed startup sequence
+1542293426210	Marionette	DEBUG	Received observer notification profile-after-change
+1542293426337	Marionette	DEBUG	Received observer notification command-line-startup
+1542293426337	Marionette	DEBUG	Received observer notification nsPref:changed
+1542293426337	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542293426572	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542293426607	addons.repository	DEBUG	No addons.json found.
+1542293427586	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+1542293427631	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 27
+1542293427648	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542293427648	Marionette	DEBUG	Waiting for delayed startup...
+1542293427664	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1542293427665	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+1542293427780	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542293427780	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542293427780	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542293427780	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542293427780	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542293427781	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542293427781	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542293427781	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542293427781	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542293427781	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542293427782	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542293427782	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542293427782	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542293427782	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542293427782	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542293427782	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542293427782	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542293427782	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542293427818	Marionette	INFO	Listening on port 51046
+1542293427819	Marionette	DEBUG	Remote service is active
+1542293427856	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51073
+1542293427858	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542293427859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542293427896	Marionette	DEBUG	[4294967297] Frame script loaded
+1542293427912	Marionette	DEBUG	[4294967297] Frame script registered
+1542293427917	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"e0b1452e-b97f-0342-b072-3fd8359cc62c","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1542293427923	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"script":5000}]
+1542293427923	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542293427928	Marionette	TRACE	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":0}]
+1542293427929	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1542293427930	Marionette	TRACE	0 -> [0,4,"WebDriver:Navigate",{"url":"about:blank"}]
+1542293427936	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542293427937	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542293427940	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for about:blank
+1542293427954	Marionette	DEBUG	[4294967297] Received DOM event pageshow for about:blank
+1542293427956	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1542293427973	Marionette	TRACE	0 -> [0,5,"WebDriver:MaximizeWindow",{}]
+1542293428254	Marionette	TRACE	0 <- [1,5,null,{"x":0,"y":23,"width":1440,"height":823,"state":"maximized"}]
+1542293428264	Marionette	TRACE	0 -> [0,6,"WebDriver:Navigate",{"url":"https://www.gogoro.com/tw/"}]
+1542293428268	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542293428526	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542293429482	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.gogoro.com/tw/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8977957, line 87: unreachable code after return statement
+1542293433771	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.gogoro.com/tw/
+1542293433772	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1542293433780	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]"}]
+1542293433783	Marionette	TRACE	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"5c57594d-760a-fd46-91fa-61073ca62d1d"}]]
+1542293433786	Marionette	TRACE	0 -> [0,8,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]"}]
+1542293433790	Marionette	TRACE	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"5c57594d-760a-fd46-91fa-61073ca62d1d"}]]
+1542293433792	Marionette	TRACE	0 -> [0,9,"WebDriver:GetElementText",{"id":"5c57594d-760a-fd46-91fa-61073ca62d1d"}]
+1542293433800	Marionette	TRACE	0 <- [1,9,null,{"value":"Gogoro"}]
+1542293433805	Marionette	TRACE	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--logi ... sktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]"}]
+1542293433807	Marionette	TRACE	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"3c62439c-e7f7-bc44-b129-c163d6301b66"}]]
+1542293433811	Marionette	TRACE	0 -> [0,11,"WebDriver:IsElementDisplayed",{"id":"3c62439c-e7f7-bc44-b129-c163d6301b66"}]
+1542293433818	Marionette	TRACE	0 <- [1,11,null,{"value":true}]
+1542293433821	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., '登入')]"}]
+1542293433828	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"591072f1-e5f5-814f-9fa9-af694321b2a5"},{"element-6066-11e4-a52e-4f735466c ... ecf":"46155ade-9727-bf4c-b62e-e2f2675ec9e2"},{"element-6066-11e4-a52e-4f735466cecf":"3c62439c-e7f7-bc44-b129-c163d6301b66"}]]
+1542293433834	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElements",{"using":"xpath","value":"//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--logi ... sktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]"}]
+1542293433838	Marionette	TRACE	0 <- [1,13,null,[{"element-6066-11e4-a52e-4f735466cecf":"3c62439c-e7f7-bc44-b129-c163d6301b66"}]]
+1542293433842	Marionette	TRACE	0 -> [0,14,"WebDriver:ElementClick",{"id":"3c62439c-e7f7-bc44-b129-c163d6301b66"}]
+1542293433867	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.gogoro.com/tw/
+1542293434279	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.gogoro.com/tw/
+1542293434281	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.gogoro.com/tw/
+1542293434779	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542293435334	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://my.gogoro.com/tw/account/login
+1542293436451	Marionette	DEBUG	Received DOM event unload for [object XULDocument]
+1542293436461	Marionette	DEBUG	Received observer notification message-manager-disconnect
+1542293436488	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1542293436507	Marionette	DEBUG	[4294967297] Received DOM event unload for https://my.gogoro.com/tw/account/login
+1542293436514	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542293436514	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542293436517	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., '電子信箱')]"}]
+1542293436518	Marionette	TRACE	0 <- [1,15,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436562	Marionette	TRACE	0 -> [0,16,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542293436563	Marionette	TRACE	0 <- [1,16,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436580	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElements",{"using":"xpath","value":"//input[@id='email']"}]
+1542293436581	Marionette	TRACE	0 <- [1,17,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436583	Marionette	TRACE	0 -> [0,18,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542293436584	Marionette	TRACE	0 <- [1,18,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436596	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElements",{"using":"xpath","value":"//input[@id='email']"}]
+1542293436597	Marionette	TRACE	0 <- [1,19,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436601	Marionette	TRACE	0 -> [0,20,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542293436601	Marionette	TRACE	0 <- [1,20,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436609	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElements",{"using":"xpath","value":"//input[@id='email']"}]
+1542293436609	Marionette	TRACE	0 <- [1,21,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436612	Marionette	TRACE	0 -> [0,22,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542293436612	Marionette	TRACE	0 <- [1,22,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436624	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElements",{"using":"xpath","value":"//input[@id='email']"}]
+1542293436625	Marionette	TRACE	0 <- [1,23,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436629	Marionette	TRACE	0 -> [0,24,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542293436630	Marionette	TRACE	0 <- [1,24,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marione ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542293436718	Marionette	DEBUG	Closed connection 0
