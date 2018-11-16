@@ -52,5 +52,3 @@ Login with Valid Credentials
     gogoroWebApp.Verfiy LOGIN successful to LOGIN page
     common.End Web Test
 
-Feature 1
-    Log  feature1 test test

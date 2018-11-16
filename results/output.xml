@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.5 on darwin)" generated="20181115 22:50:24.271">
+<robot generator="Robot 3.0.4 (Python 3.6.5 on darwin)" generated="20181116 00:20:06.951">
 <suite id="s1" name="Gogoro" source="/Users/tcyang/PycharmProjects/gogoro/tests/gogoro.robot">
 <test id="s1-t1" name="Landing Main Page">
 <kw name="Begin Web Test" library="common">
@@ -9,14 +9,14 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:24.455" level="INFO">Opening browser 'ff' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20181115 22:50:24.455" endtime="20181115 22:50:27.959"></status>
+<msg timestamp="20181116 00:20:07.143" level="INFO">Opening browser 'ff' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20181116 00:20:07.142" endtime="20181116 00:20:10.534"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20181115 22:50:27.960" endtime="20181115 22:50:28.261"></status>
+<status status="PASS" starttime="20181116 00:20:10.534" endtime="20181116 00:20:10.850"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:24.454" endtime="20181115 22:50:28.261"></status>
+<status status="PASS" starttime="20181116 00:20:07.142" endtime="20181116 00:20:10.850"></status>
 </kw>
 <kw name="Verify main page landing successsful" library="gogoroWebApp">
 <kw name="Load" library="landingPage">
@@ -25,10 +25,10 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:28.263" level="INFO">Opening url 'https://www.gogoro.com/tw/'</msg>
-<status status="PASS" starttime="20181115 22:50:28.262" endtime="20181115 22:50:33.778"></status>
+<msg timestamp="20181116 00:20:10.851" level="INFO">Opening url 'https://www.gogoro.com/tw/'</msg>
+<status status="PASS" starttime="20181116 00:20:10.851" endtime="20181116 00:20:16.730"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:28.262" endtime="20181115 22:50:33.778"></status>
+<status status="PASS" starttime="20181116 00:20:10.851" endtime="20181116 00:20:16.730"></status>
 </kw>
 <kw name="Verify Page Loaded" library="landingPage">
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
@@ -36,8 +36,8 @@
 <arguments>
 <arg>${SIGNIN_MAIN_HEADING}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:33.784" level="INFO">Current page contains element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]'.</msg>
-<status status="PASS" starttime="20181115 22:50:33.779" endtime="20181115 22:50:33.784"></status>
+<msg timestamp="20181116 00:20:16.743" level="INFO">Current page contains element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]'.</msg>
+<status status="PASS" starttime="20181116 00:20:16.731" endtime="20181116 00:20:16.743"></status>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` contains exact text ``expected``.</doc>
@@ -45,8 +45,8 @@
 <arg>${SIGNIN_MAIN_HEADING}</arg>
 <arg>Gogoro</arg>
 </arguments>
-<msg timestamp="20181115 22:50:33.785" level="INFO">Verifying element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]' contains exact text 'Gogoro'.</msg>
-<status status="PASS" starttime="20181115 22:50:33.784" endtime="20181115 22:50:33.802"></status>
+<msg timestamp="20181116 00:20:16.743" level="INFO">Verifying element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--logo gc-desktop-visible']//a[@class='nav-logo nav-logo--dark'][contains(text(),'Gogoro')]' contains exact text 'Gogoro'.</msg>
+<status status="PASS" starttime="20181116 00:20:16.743" endtime="20181116 00:20:16.760"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -54,24 +54,24 @@
 <arg>${LOGIN_BTN}</arg>
 <arg>timeout=30s</arg>
 </arguments>
-<status status="PASS" starttime="20181115 22:50:33.803" endtime="20181115 22:50:33.819"></status>
+<status status="PASS" starttime="20181116 00:20:16.760" endtime="20181116 00:20:16.777"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>登入</arg>
 </arguments>
-<status status="PASS" starttime="20181115 22:50:33.819" endtime="20181115 22:50:33.829"></status>
+<status status="PASS" starttime="20181116 00:20:16.777" endtime="20181116 00:20:16.789"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:33.778" endtime="20181115 22:50:33.829"></status>
+<status status="PASS" starttime="20181116 00:20:16.730" endtime="20181116 00:20:16.789"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:28.262" endtime="20181115 22:50:33.829"></status>
+<status status="PASS" starttime="20181116 00:20:10.850" endtime="20181116 00:20:16.789"></status>
 </kw>
 <doc>正確進入Main Page</doc>
 <tags>
 <tag>smoke LandingMainPage</tag>
 </tags>
-<status status="PASS" starttime="20181115 22:50:24.453" endtime="20181115 22:50:33.830" critical="yes"></status>
+<status status="PASS" starttime="20181116 00:20:07.141" endtime="20181116 00:20:16.790" critical="yes"></status>
 </test>
 <test id="s1-t2" name="Landing LOGIN Page">
 <kw name="GO TO LOGIN page" library="gogoroWebApp">
@@ -81,12 +81,12 @@
 <arguments>
 <arg>${LOGIN_BTN}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:33.833" level="INFO">Clicking element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--login gc-desktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]'.</msg>
-<status status="PASS" starttime="20181115 22:50:33.833" endtime="20181115 22:50:36.512"></status>
+<msg timestamp="20181116 00:20:16.793" level="INFO">Clicking element 'xpath=//li[@class='ggr-nav-item ggr-nav-item--secondary ggr-nav-item--login gc-desktop-visible']//a[@class='ggr-nav-link nav-list__link nav-list__link--login nav-list__link--dark'][contains(text(),'登入')]'.</msg>
+<status status="PASS" starttime="20181116 00:20:16.793" endtime="20181116 00:20:20.665"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:33.833" endtime="20181115 22:50:36.513"></status>
+<status status="PASS" starttime="20181116 00:20:16.792" endtime="20181116 00:20:20.665"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:33.832" endtime="20181115 22:50:36.513"></status>
+<status status="PASS" starttime="20181116 00:20:16.792" endtime="20181116 00:20:20.666"></status>
 </kw>
 <kw name="Verify LOGIN page landing successsful" library="gogoroWebApp">
 <kw name="Verify landing LOGIN page" library="signIn">
@@ -95,28 +95,25 @@
 <arguments>
 <arg>電子信箱</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181115 22:50:36.572" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.519" endtime="20181115 22:50:36.572"></status>
+<status status="PASS" starttime="20181116 00:20:20.668" endtime="20181116 00:20:20.751"></status>
 </kw>
-<msg timestamp="20181115 22:50:36.572" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.575" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.514" endtime="20181115 22:50:36.575"></status>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<arguments>
+<arg>${EMAIL_FIELD}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:20.766" level="INFO">Current page contains element 'xpath=//input[@id='email']'.</msg>
+<status status="PASS" starttime="20181116 00:20:20.751" endtime="20181116 00:20:20.767"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.514" endtime="20181115 22:50:36.575"></status>
+<status status="PASS" starttime="20181116 00:20:20.668" endtime="20181116 00:20:20.767"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.513" endtime="20181115 22:50:36.576"></status>
+<status status="PASS" starttime="20181116 00:20:20.666" endtime="20181116 00:20:20.767"></status>
 </kw>
 <doc>正確進入Login Page</doc>
 <tags>
 <tag>smoke Login</tag>
 </tags>
-<status status="FAIL" starttime="20181115 22:50:33.831" endtime="20181115 22:50:36.576" critical="yes">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" starttime="20181116 00:20:16.791" endtime="20181116 00:20:20.768" critical="yes"></status>
 </test>
 <test id="s1-t3" name="Login with Invalid Email">
 <kw name="Login with Invalid Email" library="gogoroWebApp">
@@ -139,31 +136,83 @@
 <arg>${EMAIL_FIELD}</arg>
 <arg>${Username}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:36.579" level="INFO">Typing text 'fqoff740818@gmail.co' into text field 'xpath=//input[@id='email']'.</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181115 22:50:36.586" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.582" endtime="20181115 22:50:36.587"></status>
+<msg timestamp="20181116 00:20:20.771" level="INFO">Typing text 'fqoff740818@gmail.co' into text field 'xpath=//input[@id='email']'.</msg>
+<status status="PASS" starttime="20181116 00:20:20.771" endtime="20181116 00:20:20.901"></status>
 </kw>
-<msg timestamp="20181115 22:50:36.587" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.589" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.579" endtime="20181115 22:50:36.589"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Email field with ${Username}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:20.901" level="INFO">Filling Email field with fqoff740818@gmail.co</msg>
+<status status="PASS" starttime="20181116 00:20:20.901" endtime="20181116 00:20:20.901"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.579" endtime="20181115 22:50:36.589"></status>
+<status status="PASS" starttime="20181116 00:20:20.771" endtime="20181116 00:20:20.902"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.578" endtime="20181115 22:50:36.589"></status>
+<kw name="Fill &quot;Password&quot; Field" library="signIn">
+<arguments>
+<arg>${Password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:20.902" level="INFO">Typing text 'yyyy123+++' into text field 'xpath=//input[@id='password']'.</msg>
+<status status="PASS" starttime="20181116 00:20:20.902" endtime="20181116 00:20:20.981"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.578" endtime="20181115 22:50:36.590"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Password field with ${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:20.982" level="INFO">Filling Password field with yyyy123+++</msg>
+<status status="PASS" starttime="20181116 00:20:20.982" endtime="20181116 00:20:20.982"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:20.902" endtime="20181116 00:20:20.982"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:20.770" endtime="20181116 00:20:20.982"></status>
+</kw>
+<kw name="Click &quot;LOGIN&quot; button" library="signIn">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//span[@class='ladda-label']</arg>
+</arguments>
+<msg timestamp="20181116 00:20:20.983" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
+<status status="PASS" starttime="20181116 00:20:20.983" endtime="20181116 00:20:22.685"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:20.982" endtime="20181116 00:20:22.685"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:20.769" endtime="20181116 00:20:22.685"></status>
+</kw>
+<kw name="Verfiy popup Invalid Email message" library="gogoroWebApp">
+<kw name="Verfiy popup Invalid Email message" library="signIn">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//div[@type='danger']//div</arg>
+</arguments>
+<status status="PASS" starttime="20181116 00:20:22.687" endtime="20181116 00:20:22.735"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>此電子信箱不存在</arg>
+</arguments>
+<msg timestamp="20181116 00:20:22.753" level="INFO">Current page contains text '此電子信箱不存在'.</msg>
+<status status="PASS" starttime="20181116 00:20:22.735" endtime="20181116 00:20:22.753"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.686" endtime="20181116 00:20:22.753"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.686" endtime="20181116 00:20:22.754"></status>
 </kw>
 <doc>非法Email測試</doc>
 <tags>
 <tag>smoke Login</tag>
 </tags>
-<status status="FAIL" starttime="20181115 22:50:36.576" endtime="20181115 22:50:36.590" critical="yes">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" starttime="20181116 00:20:20.768" endtime="20181116 00:20:22.754" critical="yes"></status>
 </test>
 <test id="s1-t4" name="Login with Invalid Password">
 <kw name="Login with Invalid Password" library="gogoroWebApp">
@@ -186,31 +235,83 @@
 <arg>${EMAIL_FIELD}</arg>
 <arg>${Username}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:36.595" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181115 22:50:36.603" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.600" endtime="20181115 22:50:36.603"></status>
+<msg timestamp="20181116 00:20:22.757" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
+<status status="PASS" starttime="20181116 00:20:22.757" endtime="20181116 00:20:22.859"></status>
 </kw>
-<msg timestamp="20181115 22:50:36.603" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.604" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.594" endtime="20181115 22:50:36.604"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Email field with ${Username}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:22.859" level="INFO">Filling Email field with fqoff740818@gmail.com</msg>
+<status status="PASS" starttime="20181116 00:20:22.859" endtime="20181116 00:20:22.859"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.594" endtime="20181115 22:50:36.604"></status>
+<status status="PASS" starttime="20181116 00:20:22.757" endtime="20181116 00:20:22.859"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.593" endtime="20181115 22:50:36.604"></status>
+<kw name="Fill &quot;Password&quot; Field" library="signIn">
+<arguments>
+<arg>${Password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:22.860" level="INFO">Typing text 'yyyy123+++' into text field 'xpath=//input[@id='password']'.</msg>
+<status status="PASS" starttime="20181116 00:20:22.860" endtime="20181116 00:20:22.923"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.592" endtime="20181115 22:50:36.605"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Password field with ${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:22.923" level="INFO">Filling Password field with yyyy123+++</msg>
+<status status="PASS" starttime="20181116 00:20:22.923" endtime="20181116 00:20:22.924"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.860" endtime="20181116 00:20:22.924"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.756" endtime="20181116 00:20:22.924"></status>
+</kw>
+<kw name="Click &quot;LOGIN&quot; button" library="signIn">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//span[@class='ladda-label']</arg>
+</arguments>
+<msg timestamp="20181116 00:20:22.924" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
+<status status="PASS" starttime="20181116 00:20:22.924" endtime="20181116 00:20:25.057"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.924" endtime="20181116 00:20:25.057"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:22.755" endtime="20181116 00:20:25.057"></status>
+</kw>
+<kw name="Verfiy popup Invalid Password message" library="gogoroWebApp">
+<kw name="Verfiy popup Invalid Password message" library="signIn">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//div[@type='danger']//div</arg>
+</arguments>
+<status status="PASS" starttime="20181116 00:20:25.058" endtime="20181116 00:20:25.183"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>請確認帳號和密碼</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.197" level="INFO">Current page contains text '請確認帳號和密碼'.</msg>
+<status status="PASS" starttime="20181116 00:20:25.184" endtime="20181116 00:20:25.198"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.058" endtime="20181116 00:20:25.198"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.057" endtime="20181116 00:20:25.198"></status>
 </kw>
 <doc>非法Password測試</doc>
 <tags>
 <tag>smoke Login</tag>
 </tags>
-<status status="FAIL" starttime="20181115 22:50:36.591" endtime="20181115 22:50:36.605" critical="yes">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" starttime="20181116 00:20:22.754" endtime="20181116 00:20:25.198" critical="yes"></status>
 </test>
 <test id="s1-t5" name="Login with Invalid len Password">
 <kw name="Login with Invalid Password" library="gogoroWebApp">
@@ -233,31 +334,91 @@
 <arg>${EMAIL_FIELD}</arg>
 <arg>${Username}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:36.609" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181115 22:50:36.615" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.611" endtime="20181115 22:50:36.615"></status>
+<msg timestamp="20181116 00:20:25.201" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
+<status status="PASS" starttime="20181116 00:20:25.200" endtime="20181116 00:20:25.299"></status>
 </kw>
-<msg timestamp="20181115 22:50:36.615" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.616" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.608" endtime="20181115 22:50:36.616"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Email field with ${Username}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.299" level="INFO">Filling Email field with fqoff740818@gmail.com</msg>
+<status status="PASS" starttime="20181116 00:20:25.299" endtime="20181116 00:20:25.299"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.608" endtime="20181115 22:50:36.617"></status>
+<status status="PASS" starttime="20181116 00:20:25.200" endtime="20181116 00:20:25.300"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.608" endtime="20181115 22:50:36.617"></status>
+<kw name="Fill &quot;Password&quot; Field" library="signIn">
+<arguments>
+<arg>${Password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.300" level="INFO">Typing text '123' into text field 'xpath=//input[@id='password']'.</msg>
+<status status="PASS" starttime="20181116 00:20:25.300" endtime="20181116 00:20:25.351"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.607" endtime="20181115 22:50:36.618"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Password field with ${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.352" level="INFO">Filling Password field with 123</msg>
+<status status="PASS" starttime="20181116 00:20:25.352" endtime="20181116 00:20:25.353"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.300" endtime="20181116 00:20:25.353"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.200" endtime="20181116 00:20:25.353"></status>
+</kw>
+<kw name="Click &quot;LOGIN&quot; button" library="signIn">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//span[@class='ladda-label']</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.354" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
+<status status="PASS" starttime="20181116 00:20:25.354" endtime="20181116 00:20:25.593"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.353" endtime="20181116 00:20:25.593"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.199" endtime="20181116 00:20:25.593"></status>
+</kw>
+<kw name="Verfiy popup Invalid len Password message" library="gogoroWebApp">
+<kw name="Verfiy popup Invalid len Password message" library="signIn">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//span[@class='help-block']</arg>
+</arguments>
+<status status="PASS" starttime="20181116 00:20:25.594" endtime="20181116 00:20:25.607"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>請輸入最少8以及最多20個數字的密碼</arg>
+</arguments>
+<msg timestamp="20181116 00:20:25.618" level="INFO">Current page contains text '請輸入最少8以及最多20個數字的密碼'.</msg>
+<status status="PASS" starttime="20181116 00:20:25.607" endtime="20181116 00:20:25.618"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1.5s</arg>
+</arguments>
+<msg timestamp="20181116 00:20:27.120" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20181116 00:20:25.618" endtime="20181116 00:20:27.121"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.594" endtime="20181116 00:20:27.121"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:25.593" endtime="20181116 00:20:27.121"></status>
 </kw>
 <doc>非法Password格式測試</doc>
 <tags>
 <tag>smoke Login</tag>
 </tags>
-<status status="FAIL" starttime="20181115 22:50:36.606" endtime="20181115 22:50:36.618" critical="yes">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" starttime="20181116 00:20:25.198" endtime="20181116 00:20:27.121" critical="yes"></status>
 </test>
 <test id="s1-t6" name="Login with Valid Credentials">
 <kw name="Login with Valid Credentials" library="gogoroWebApp">
@@ -280,31 +441,90 @@
 <arg>${EMAIL_FIELD}</arg>
 <arg>${Username}</arg>
 </arguments>
-<msg timestamp="20181115 22:50:36.622" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181115 22:50:36.632" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.627" endtime="20181115 22:50:36.632"></status>
+<msg timestamp="20181116 00:20:27.125" level="INFO">Typing text 'fqoff740818@gmail.com' into text field 'xpath=//input[@id='email']'.</msg>
+<status status="PASS" starttime="20181116 00:20:27.125" endtime="20181116 00:20:27.189"></status>
 </kw>
-<msg timestamp="20181115 22:50:36.632" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.633" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" starttime="20181115 22:50:36.622" endtime="20181115 22:50:36.633"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Email field with ${Username}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:27.190" level="INFO">Filling Email field with fqoff740818@gmail.com</msg>
+<status status="PASS" starttime="20181116 00:20:27.189" endtime="20181116 00:20:27.190"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.622" endtime="20181115 22:50:36.634"></status>
+<status status="PASS" starttime="20181116 00:20:27.125" endtime="20181116 00:20:27.190"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.621" endtime="20181115 22:50:36.634"></status>
+<kw name="Fill &quot;Password&quot; Field" library="signIn">
+<arguments>
+<arg>${Password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:27.191" level="INFO">Typing text 'yyyy999***' into text field 'xpath=//input[@id='password']'.</msg>
+<status status="PASS" starttime="20181116 00:20:27.191" endtime="20181116 00:20:27.239"></status>
 </kw>
-<status status="FAIL" starttime="20181115 22:50:36.620" endtime="20181115 22:50:36.634"></status>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Filling Password field with ${Password}</arg>
+</arguments>
+<msg timestamp="20181116 00:20:27.240" level="INFO">Filling Password field with yyyy999***</msg>
+<status status="PASS" starttime="20181116 00:20:27.239" endtime="20181116 00:20:27.240"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:27.190" endtime="20181116 00:20:27.240"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:27.124" endtime="20181116 00:20:27.240"></status>
+</kw>
+<kw name="Click &quot;LOGIN&quot; button" library="signIn">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//span[@class='ladda-label']</arg>
+</arguments>
+<msg timestamp="20181116 00:20:27.241" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
+<status status="PASS" starttime="20181116 00:20:27.240" endtime="20181116 00:20:29.107"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:27.240" endtime="20181116 00:20:29.107"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:27.124" endtime="20181116 00:20:29.107"></status>
+</kw>
+<kw name="Verfiy LOGIN successful to LOGIN page" library="gogoroWebApp">
+<kw name="Verfiy LOGIN successful to LOGIN page" library="signIn">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//div[@class='layout-cell cell-name hidden-xs hidden-sm topHeader-menuLink']</arg>
+</arguments>
+<status status="PASS" starttime="20181116 00:20:29.108" endtime="20181116 00:20:29.292"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>My Gogoro</arg>
+</arguments>
+<msg timestamp="20181116 00:20:29.319" level="INFO">Current page contains text 'My Gogoro'.</msg>
+<status status="PASS" starttime="20181116 00:20:29.292" endtime="20181116 00:20:29.319"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:29.108" endtime="20181116 00:20:29.319"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:29.107" endtime="20181116 00:20:29.319"></status>
+</kw>
+<kw name="End Web Test" library="common">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20181116 00:20:29.320" endtime="20181116 00:20:29.886"></status>
+</kw>
+<status status="PASS" starttime="20181116 00:20:29.319" endtime="20181116 00:20:29.886"></status>
 </kw>
 <doc>正確登入測試</doc>
 <tags>
 <tag>smoke Login</tag>
 </tags>
-<status status="FAIL" starttime="20181115 22:50:36.619" endtime="20181115 22:50:36.634" critical="yes">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" starttime="20181116 00:20:27.122" endtime="20181116 00:20:29.886" critical="yes"></status>
 </test>
 <test id="s1-t7" name="Feature 1">
 <kw name="Log" library="BuiltIn">
@@ -312,37 +532,27 @@
 <arguments>
 <arg>feature1 test test</arg>
 </arguments>
-<msg timestamp="20181115 22:50:36.636" level="INFO">feature1 test test</msg>
-<status status="PASS" starttime="20181115 22:50:36.636" endtime="20181115 22:50:36.636"></status>
+<msg timestamp="20181116 00:20:29.887" level="INFO">feature1 test test</msg>
+<status status="PASS" starttime="20181116 00:20:29.887" endtime="20181116 00:20:29.887"></status>
 </kw>
-<status status="PASS" starttime="20181115 22:50:36.635" endtime="20181115 22:50:36.636" critical="yes"></status>
+<status status="PASS" starttime="20181116 00:20:29.887" endtime="20181116 00:20:29.887" critical="yes"></status>
 </test>
 <doc>gogoro web login test</doc>
-<status status="FAIL" starttime="20181115 22:50:24.273" endtime="20181115 22:50:36.638"></status>
+<status status="PASS" starttime="20181116 00:20:06.953" endtime="20181116 00:20:29.889"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="5">Critical Tests</stat>
-<stat pass="2" fail="5">All Tests</stat>
+<stat pass="7" fail="0">Critical Tests</stat>
+<stat pass="7" fail="0">All Tests</stat>
 </total>
 <tag>
 <stat pass="1" fail="0">smoke LandingMainPage</stat>
-<stat pass="0" fail="5">smoke Login</stat>
+<stat pass="5" fail="0">smoke Login</stat>
 </tag>
 <suite>
-<stat pass="2" fail="5" id="s1" name="Gogoro">Gogoro</stat>
+<stat pass="7" fail="0" id="s1" name="Gogoro">Gogoro</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20181115 22:50:36.572" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.587" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.603" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.615" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<msg timestamp="20181115 22:50:36.632" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
 </errors>
 </robot>
