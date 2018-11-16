@@ -51,4 +51,5 @@ Login with Valid Credentials
     gogoroWebApp.Login with Valid Credentials    ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
     gogoroWebApp.Verfiy LOGIN successful to LOGIN page
     common.End Web Test
+    log  1116
 
