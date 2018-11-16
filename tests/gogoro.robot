@@ -7,7 +7,7 @@ Resource  ../resources/gogoroWebApp.robot
 # robot -d results tests/gogoro.robot
 
 *** Variables ***
-${BROWSER} =  ff
+${BROWSER} =  chrome
 ${START_URL} =  https://www.gogoro.com/tw/
 ${LOGIN_EMAIL} =  fqoff740818@gmail.com
 ${LOGIN_PASSWORD} =  yyyy999***
